@@ -1,0 +1,62 @@
+.super{
+    background-color:lavender ;
+}
+table{
+    margin-left: 150px;
+    width: 1000px;
+}
+h4{
+    margin-left: 1600px;
+}
+.button{
+    width: fit-content;
+    margin-left: 1200px;
+    margin-bottom: 50px;
+}
+.close{
+    position: relative;
+    float: right;
+    margin: 0%;
+    top: -20px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.button p{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+input{
+    width: 300px;
+    margin-top: 20px;
+}
+.add{
+    margin-left: 400px;
+    background-color: darkgrey;
+    border: solid 2px grey;
+    padding: 80px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+.add p{
+    text-align: center;
+    font-size: 30px;
+    color: honeydew;
+}
+.error-label{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;;
+    
+}
+.form-control.ng-touched.ng-invalid
+{
+    border:solid 2px red;
+    border-radius: 5px;
+}
